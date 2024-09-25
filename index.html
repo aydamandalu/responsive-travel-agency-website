@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+<body>
+      <header>
+            <div class="logo">TRAVLING</div>
+            <div class="hamburger">
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+            </div>
+            <nav class="navbar">
+                  <ul>
+                        <li><a href="" class="active">HOME</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#Gallery">Gallery</a></li>
+                        <li><a href="">Login</a></li>
+                  </ul>
+            </nav>
+      </header>
+
+      <section class="home" id="home">
+        <div class="home-text">
+            <h1>Travel Agency</h1>
+            <p>Experience a good trip with us.</p>
+        </div>
+      </section>
+      <section class="about" id="about">
+      <div class="about-section">
+            <div class="inner-container">
+                  <h1>ABOUT US</h1>
+                  <P class="text">At [Your Travel Agency Name], we believe that travel is not just about reaching a destination, but about the experiences and memories created along the way. Our dedicated team of travel experts is here to help you explore the world, offering personalized travel solutions tailored to your unique preferences and needs.
+                  </P>
+                  <div class="skills">
+                  <span>vecation</span>
+                  <span>travel</span>
+                  <span>agency</span>
+                  </div>
+            </div>
+      </div>
+     </section>
+
+     <!-- services  -->
+     <section class="services" id="services">
+     <div class="heading-servicess">
+      <h1>Se<font color="#305aff">rvi</font>ces</h1>
+      <p>Services provided by our travel agency</p>
+     </div>
+     <div class="s-box-container">
+          <div class="s-box">
+             <img src="img/icons8-reliability-100.png" alt="">
+             <h1> Reliable</h1>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+             <a href="#" class="s-btn"> More</a>
+          </div>
+          <div class="s-box">
+            <img src="img/icons8-professional-100.png" alt="">
+            <h1> professional</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <a href="#" class="s-btn"> More</a>
+         </div>
+         <div class="s-box">
+            <img src="img/icons8-car-100.png" alt="">
+            <h1> Car rentals</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <a href="#" class="s-btn"> More</a>
+         </div>
+     </div>
+     </section>
+
+     <section class="gallery" id="Gallery">
+      <div class="heading-servicess">
+            <h1><font color="#305aff">Ga</font>lle<font color="#305aff">ry</font></h1>
+      </div>
+      <div class="img-gallery">
+            <img src="img/img1.jpg" alt="">
+            <img src="img/img2.jpg" alt="">
+            <img src="img/img3.jpg" alt="">
+            <img src="img/img4.jpg" alt="">
+            <img src="img/img5.jpg" alt="">
+            <img src="img/img6.jpg" alt="">
+      </div>
+     </section>
+     <section class="Login" id="Login">
+      <form action="" id="MyForm">
+            <h3><span>Login</span> your account</h3>
+            <input type="text" name="" id="username" placeholder="username" required>
+            <input type="email" name="" id="email" placeholder="email" required>
+            <input type="password" name="" id="password" placeholder="password" required>
+            <input type="submit" value="login"> <br>
+            <a href="#" class="a1">forget password?</a><br>
+            <a href="#" class="a2">create account</a>
+      </form>
+     </section>
+
+     
+  <footer class="footer">
+      <div class="container">
+       <div class="row">
+         <div class="footer-col">
+           <h4>company</h4>
+           <ul>
+             <li><a href="#">about us</a></li>
+             <li><a href="#">our services</a></li>
+             <li><a href="#">privacy policy</a></li>
+             <li><a href="#">affiliate program</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>get help</h4>
+           <ul>
+             <li><a href="#">FAQ</a></li>
+             <li><a href="#">shipping</a></li>
+             <li><a href="#">returns</a></li>
+             <li><a href="#">order status</a></li>
+             <li><a href="#">payment options</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>online shop</h4>
+           <ul>
+             <li><a href="#">watch</a></li>
+             <li><a href="#">bag</a></li>
+             <li><a href="#">shoes</a></li>
+             <li><a href="#">dress</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>follow us</h4>
+           <div class="social-links">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-linkedin-in"></i></a>
+           </div>
+         </div>
+       </div>
+      </div>
+   </footer>
+
+</body>
+<script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function(){
+            navbar = document.querySelector(".navbar");
+            navbar.classList.toggle("active");
+      }
+</script>
+</html>
